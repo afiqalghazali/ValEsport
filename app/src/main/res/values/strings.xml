@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">ValEsport</string>
+
+    <string name="esports_name">Team Name</string>
+    <string name="description">Description</string>
+    <string name="main_rosters">Main Rosters</string>
+    <string name="rosters">Player 1\nPlayer 2\nPlayer 3\nPlayer 4\nPlayer 5</string>
+    <string name="total_earning">Total Earning</string>
+    <string name="earning">$100,000</string>
+    <string name="highest_achievements">Highest Achievements</string>
+    <string name="achievements">1st Champions 2021\n1st Champions 2022\n1st Champions 2023</string>
+    <string name="share">Share</string>
+    <string name="about_name">Afiq Alghazali Lubis</string>
+    <string name="about_email">afiqalghazali27@gmail.com</string>
+    <string name="about_name_header">Hi, I\'m</string>
+    <string name="about_description">Just an ordinary guy who loves to try a different thing and do a little design in Android 🎨.</string>
+    <string name="about_contact">Contact Me</string>
+
+    <string-array name="data_name">
+        <item>Evil Geniuses</item>
+        <item>Fnatic</item>
+        <item>Paper Rex</item>
+        <item>Loud</item>
+        <item>Sentinels</item>
+        <item>Acend</item>
+        <item>Team Liquid</item>
+        <item>FunPlus Phoenix</item>
+        <item>DRX</item>
+        <item>100 Thieves</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Evil Geniuses is a professional gaming organization founded in Canada in 1999.</item>
+        <item>Fnatic is a professional esports organization based in London, United Kingdom.</item>
+        <item>Paper Rex is a Southeast Asian esports organization based in Singapore.</item>
+        <item>LOUD is a Brazilian multi-gaming organization.</item>
+        <item>Sentinels is an American esports organization based in Los Angeles.</item>
+        <item>Acend is an European esports organization.</item>
+        <item>Team Liquid is a professional esports organization founded in the Netherlands in 2000.</item>
+        <item>FunPlus Phoenix is an esports organization owned by Chinese game developer FunPlus.</item>
+        <item>DRX is a Korean VALORANT team formed by the acquision of former Vision Strikers roster.</item>
+        <item>100 Thieves is an American organization formed by Matthew "Nadeshot" Haag and NBA team Cleveland Cavaliers.</item>
+    </string-array>
+
+    <string-array name="data_logo">
+        <item>https://owcdn.net/img/62a409b29c1ab.png</item>
+        <item>https://owcdn.net/img/62a40cc2b5e29.png</item>
+        <item>https://owcdn.net/img/62bbebb185a7e.png</item>
+        <item>https://owcdn.net/img/62bbec8dc1b9f.png</item>
+        <item>https://owcdn.net/img/62875027c8e06.png</item>
+        <item>https://owcdn.net/img/62a4157412b4f.png</item>
+        <item>https://owcdn.net/img/640c38262824c.png</item>
+        <item>https://owcdn.net/img/65a17b313b131.png</item>
+        <item>https://owcdn.net/img/63b17ac3a7d00.png</item>
+        <item>https://owcdn.net/img/603c00dbb7d39.png</item>
+    </string-array>
+
+    <string-array name="data_photo">
+        <item>https://liquipedia.net/commons/images/thumb/9/9e/Evil_Geniuses_at_the_VALORANT_Champions_2023.jpg/675px-Evil_Geniuses_at_the_VALORANT_Champions_2023.jpg</item>
+        <item>https://liquipedia.net/commons/images/thumb/5/5b/Fnatic_at_the_VALORANT_Champions_2023.jpg/844px-Fnatic_at_the_VALORANT_Champions_2023.jpg</item>
+        <item>https://liquipedia.net/commons/images/thumb/7/71/Paper_Rex_at_the_VALORANT_Champions_2023.jpg/844px-Paper_Rex_at_the_VALORANT_Champions_2023.jpg</item>
+        <item>https://liquipedia.net/commons/images/thumb/e/e6/LOUD_at_the_VALORANT_Champions_2023.jpg/675px-LOUD_at_the_VALORANT_Champions_2023.jpg</item>
+        <item>https://liquipedia.net/commons/images/thumb/c/cb/Sentinels_at_the_VCT_2023_LOCKIN_S%C3%A3o_Paulo.jpg/844px-Sentinels_at_the_VCT_2023_LOCKIN_S%C3%A3o_Paulo.jpg</item>
+        <item>https://liquipedia.net/commons/images/thumb/5/51/Acend_at_VALORANT_Champions_2021.jpg/792px-Acend_at_VALORANT_Champions_2021.jpg</item>
+        <item>https://liquipedia.net/commons/images/thumb/e/eb/Team_Liquid_at_the_VALORANT_Champions_2023.jpg/675px-Team_Liquid_at_the_VALORANT_Champions_2023.jpg</item>
+        <item>https://liquipedia.net/commons/images/thumb/0/06/FunPlus_Phoenix_at_the_VCT_2023_LOCKIN_S%C3%A3o_Paulo.jpg/676px-FunPlus_Phoenix_at_the_VCT_2023_LOCKIN_S%C3%A3o_Paulo.jpg</item>
+        <item>https://liquipedia.net/commons/images/thumb/7/75/DRX_at_VCT-_Masters_Tokyo.jpg/675px-DRX_at_VCT-_Masters_Tokyo.jpg</item>
+        <item>https://liquipedia.net/commons/images/thumb/6/66/100T_at_VCT_LOCK_IN_S%C3%A3o_Paulo.jpg/675px-100T_at_VCT_LOCK_IN_S%C3%A3o_Paulo.jpg</item>
+    </string-array>
+
+    <string-array name="data_roster">
+        <item>🇰🇭 jawgemo\n🇨🇦 Apotheon\n🇺🇸 Derrek\n🇺🇸 NaturE\n🇺🇸 supamen</item>
+        <item>🇬🇧 Boaster\n🇫🇮 Derke\n🇹🇷 Alfajer\n🇸🇪 Leo\n🇷🇺 Chronicle</item>
+        <item>🇲🇾 d4v41\n🇮🇩 f0rsakeN\n🇮🇩 mindfreak\n🇷🇺 something\n🇮🇩 Monyet</item>
+        <item>🇧🇷 Less\n🇦🇷 Saadhak\n🇧🇷 cauanzin\n🇧🇷 tuyz\n🇧🇷 qck</item>
+        <item>🇺🇸 zekken\n🇧🇷 Sacy\n🇨🇦 TenZ\n🇲🇦 johnqt\n🇺🇸 Zellsis\n🇧🇷 pANcada</item>
+        <item>🏴 ALIVE\n🇵🇱 baddyG\n🇬🇧 Br0die\n🇩🇪 musashi\n🇷🇺 chiwa\n🇫🇮 Vuubit</item>
+        <item>🇫🇮 Jamppi\n🇷🇺 nAts\n🇫🇷 Enzo\n🇬🇧 Keiko\n🇬🇧 Mistic\n🇩🇪 Harmii</item>
+        <item>🇨🇳 AAAAY\n🇹🇼 BerLIN\n🇨🇳 Lysoar\n🇦🇺 autumn\n🇨🇳 Life</item>
+        <item>🇰🇷 BuZz\n🇰🇷 MaKo\n🇰🇷 stax\n🇰🇷 Foxy9\n🇰🇷 Flashback</item>
+        <item>🇺🇸 Asuna\n🇺🇸 bang\n🇺🇸 Cryocells\n🇨🇦 eeiu\n🇺🇸 Boostio</item>
+    </string-array>
+
+    <string-array name="data_earning">
+        <item>$1,280,500</item>
+        <item>$1,045,026</item>
+        <item>$1,034,351</item>
+        <item>$915,156</item>
+        <item>$613,000</item>
+        <item>$580,933</item>
+        <item>$564,354</item>
+        <item>$516,610</item>
+        <item>$491,949</item>
+        <item>$339,000</item>
+    </string-array>
+
+    <string-array name="data_achievement">
+        <item>1st VALORANT Champions 2023\n2nd VCT 2023: Masters Tokyo\n3rd VCT 2023: Americas League</item>
+        <item>1st VCT 2023: Masters Tokyo\n4th VALORANT Champions 2023\n1st	VCT 2023: LOCK//IN São Paulo</item>
+        <item>2nd VALORANT Champions 2023\n3rd VCT 2023: Masters Tokyo\n2nd	VCT 2022: Stage 2 Masters - Copenhagen</item>
+        <item>1st VALORANT Champions 2022\n3rd VALORANT Champions 2023\n2nd	VCT 2022: Stage 1 Masters - Reykjavík</item>
+        <item>1st VCT 2021: Stage 2 Masters - Reykjavík\n1st VCT 2021: North America Stage 1 Masters\n1st VCT 2021: North America Stage 3 Challengers Playoffs</item>
+        <item>1st VALORANT Champions 2021\n1st VCT 2021: Europe Stage 1 Masters\n5th - 8th VCT 2021: Stage 3 Masters - Berlins</item>
+        <item>1st VCT 2023: EMEA League\n3rd - 4th VALORANT Champions 2021\n4th VCT 2021: Stage 2 Masters - Reykjavík</item>
+        <item>1st VCT 2022: Stage 2 Masters - Copenhagen\n4th VALORANT Champions 2022\n1st VCT 2022: EMEA Stage 1 Challengers</item>
+        <item>3rd VALORANT Champions 2022\n5th - 6th VALORANT Champions 2023\n2nd VCT 2023: Pacific League</item>
+        <item>3rd - 4th VCT 2021: Stage 3 Masters - Berlin\n1st	Red Bull Home Ground #3\n1st First Strike North America</item>
+    </string-array>
+
+    <string-array name="data_site">
+        <item>https://liquipedia.net/valorant/Evil_Geniuses</item>
+        <item>https://liquipedia.net/valorant/Fnatic</item>
+        <item>https://liquipedia.net/valorant/Paper_Rex</item>
+        <item>https://liquipedia.net/valorant/LOUD</item>
+        <item>https://liquipedia.net/valorant/Sentinels</item>
+        <item>https://liquipedia.net/valorant/Acend</item>
+        <item>https://liquipedia.net/valorant/Team_Liquid</item>
+        <item>https://liquipedia.net/valorant/FunPlus_Phoenix</item>
+        <item>https://liquipedia.net/valorant/DRX</item>
+        <item>https://liquipedia.net/valorant/100_Thieves</item>
+    </string-array>
+</resources>

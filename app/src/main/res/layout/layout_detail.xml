@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/main_rosters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_rosters"
+        android:textSize="18sp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="12dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"  />
+
+    <TextView
+        android:id="@+id/rosters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rosters"
+        android:textSize="14sp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toBottomOf="@id/main_rosters"  />
+
+    <TextView
+        android:id="@+id/total_earning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total_earning"
+        android:textSize="18sp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="12dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/rosters"   />
+
+    <TextView
+        android:id="@+id/earning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/earning"
+        android:textSize="14sp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toBottomOf="@id/total_earning"  />
+
+    <TextView
+        android:id="@+id/highest_achievements"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/highest_achievements"
+        android:textSize="18sp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="12dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/earning"   />
+
+    <TextView
+        android:id="@+id/achievements"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/achievements"
+        android:textSize="14sp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="8dp"
+        android:lineSpacingMultiplier="1.2"
+        app:layout_constraintTop_toBottomOf="@id/highest_achievements"  />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
