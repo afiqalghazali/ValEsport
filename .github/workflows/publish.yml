@@ -25,6 +25,10 @@ jobs:
           distribution: 'zulu'
           java-version: '17'
 
+      # Make Gradle wrapper executable
+      - name: Make Gradle executable
+        run: chmod +x ./gradlew
+
       # Build a Debug APK using Gradle
       - name: Build APK
         run: ./gradlew assembleDebug
@@ -44,4 +48,4 @@ jobs:
           tag: ${{ github.event.inputs.version }}
           name: Release ${{ github.event.inputs.version }}
           body: ${{ github.event.inputs.description }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.TOKEN }}
