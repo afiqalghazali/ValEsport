@@ -37,15 +37,16 @@ jobs:
       - name: Rename APK
         run: |
           mkdir -p release
+          VERSION="${{ github.event.inputs.version }}"
           cp app/build/outputs/apk/debug/app-debug.apk \
-             release/${{ github.event.repository.name }}-${{ github.event.inputs.version }}.apk
+              release/${{ github.event.repository.name }}-${VERSION}.apk
 
       # Create a GitHub Release
       - name: Create GitHub Release
         uses: ncipollo/release-action@v1
         with:
           artifacts: release/${{ github.event.repository.name }}-${{ github.event.inputs.version }}.apk
-          tag: ${{ github.event.inputs.version }}
-          name: Release ${{ github.event.inputs.version }}
+          tag: v${{ github.event.inputs.version }}
+          name: v${{ github.event.inputs.version }}
           body: ${{ github.event.inputs.description }}
           token: ${{ secrets.TOKEN }}
