@@ -2,17 +2,9 @@ package com.scifi.valesport
 
 import android.content.Intent
 import android.graphics.Color
-import android.net.Uri
 import android.os.Build
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.widget.ImageView
-import android.widget.TextView
-import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import jp.wasabeef.glide.transformations.ColorFilterTransformation
@@ -33,10 +25,10 @@ class DetailActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val esport = if (Build.VERSION.SDK_INT >= 33) {
-            intent.getParcelableExtra<Esport>(EXTRA_ESPORT, Esport::class.java)
+            intent.getParcelableExtra(EXTRA_ESPORT, Esport::class.java)
         } else {
             @Suppress("DEPRECATION")
-            intent.getParcelableExtra<Esport>(EXTRA_ESPORT)
+            intent.getParcelableExtra(EXTRA_ESPORT)
         }
 
         if (esport != null) {
